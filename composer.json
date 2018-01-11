@@ -1,8 +1,17 @@
 {
   "name":"eric404/droplet",
   "description":"PHP/DropLet/ The PHP Framework",
+  "type": "project",
+  "license": "MIT",
+  "homepage": "http://droplet.ericli.top/",
   "vision":"0.0.1-alpha",
   "keywords":["php","php framework"],
+  "authors": [
+    {
+      "name": "EricLi",
+      "email": "me@ericli.top"
+    }
+  ],
   "require":{
     "php":">=5.6.30",
     "filp/whoops":"*",
