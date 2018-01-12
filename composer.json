@@ -15,7 +15,13 @@
   "require":{
     "php":">=5.6.30",
     "filp/whoops":"*",
-    "hassankhan/config":"0.10.0"
+    "noahbuscher/macaw": "dev-master"
+  },
+  "autoload": {
+    "classmap": [
+      "app/controllers",
+      "app/models"
+    ]
   },
   "repositories": {
     "packagist": {
@@ -23,4 +29,5 @@
       "url": "https://packagist.phpcomposer.com"
     }
   }
+
 }
