@@ -13,7 +13,8 @@ class HomeController extends BaseController
      */
     public function home(){
         $this->view = \services\View::make('home')->with('article',Article::first())
-            ->withTitle('MFFC :-D')
-            ->withFuckMe('OK!');
+            ->withTitle('DropLet :-D')
+            ->withKey('OK!')
+            ->withKeyKey('OK!');
     }
 }
