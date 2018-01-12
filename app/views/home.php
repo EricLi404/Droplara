@@ -24,14 +24,15 @@
 
 </div>
 
-<ul class="fuckme">
-
-    <li>Fuck Me !</li>
+<ul class="key">
 
     <li>
 
-        <?php echo $fuck_me ?>
+        <?php echo $key ?>
 
+    </li>
+    <li>
+        <?php echo $key_key ?>
     </li>
 
 </ul>
