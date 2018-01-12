@@ -7,7 +7,7 @@
  */
 
 return [
-    'host'=>'smtp.sohu.com',
-    'username'=>'eric404@sohu.com',
+    'host'=>'smtp.xxxx.com',
+    'username'=>'xxx@xxxx.com',
     'password'=>'password'
 ];
