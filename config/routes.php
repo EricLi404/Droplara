@@ -17,5 +17,10 @@ Macaw::get('(:all)', function($route) {
     echo '未匹配到路由<br>'.$route;
 });
 
+Macaw::$error_callback = function() {
+
+    throw new Exception("路由无匹配项 404 Not Found");
+
+};
 
 Macaw::dispatch();

@@ -5,10 +5,19 @@
  * Date: 2018/1/11
  * Time: 20:03
  */
+// 定义 PUBLIC_PATH
 
+define('PUBLIC_PATH', __DIR__);
 
-// Autoload 自动载入
-require '../vendor/autoload.php';
+// 启动器
+
+require PUBLIC_PATH.'/../start.php';
+
+// 路由配置、开始处理
+
+require BASE_PATH.'/config/routes.php';
 
 // 路由配置
+//其他所有操作都要在路由分配之前完成
 require '../config/routes.php';
+

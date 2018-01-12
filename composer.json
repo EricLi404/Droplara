@@ -15,12 +15,14 @@
   "require":{
     "php":">=5.6.30",
     "filp/whoops":"*",
-    "noahbuscher/macaw": "dev-master"
+    "noahbuscher/macaw": "dev-master",
+    "illuminate/database": "*"
   },
   "autoload": {
     "classmap": [
       "app/controllers",
-      "app/models"
+      "app/models",
+      "services"
     ]
   },
   "repositories": {

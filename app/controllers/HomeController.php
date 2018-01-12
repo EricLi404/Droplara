@@ -12,8 +12,8 @@ class HomeController extends BaseController
      *
      */
     public function home(){
-//        echo "Controller Success!!!";
-        Article::first();
-        require dirname(__FILE__) . '/../views/home.php';
+        $this->view = \services\View::make('home')->with('article',Article::first())
+            ->withTitle('MFFC :-D')
+            ->withFuckMe('OK!');
     }
 }
