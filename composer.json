@@ -4,7 +4,7 @@
   "type": "project",
   "license": "MIT",
   "homepage": "http://droplet.ericli.top/",
-  "vision":"0.0.1-alpha",
+  "vision":"v1.0-alpha",
   "keywords":["php","php framework"],
   "authors": [
     {
