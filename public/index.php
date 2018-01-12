@@ -14,10 +14,8 @@ define('PUBLIC_PATH', __DIR__);
 require PUBLIC_PATH.'/../start.php';
 
 // 路由配置、开始处理
-
+//其他所有操作都要在路由分配之前完成
 require BASE_PATH.'/config/routes.php';
 
-// 路由配置
-//其他所有操作都要在路由分配之前完成
-require '../config/routes.php';
+
 

@@ -1,6 +1,7 @@
 <?php
 
 use services\Mail;
+use services\Redis;
 
 /**
  * Created by PhpStorm.
@@ -8,21 +9,31 @@ use services\Mail;
  * Date: 2018/1/11
  * Time: 20:30
  */
-
 class HomeController extends BaseController
 {
     /**
      *
      */
-    public function home(){
+    public function home()
+    {
+
+        /* view sample
         $this->view = \services\View::make('home')->with('article',Article::first())
             ->withTitle('DropLet :-D')
             ->withKey('OK!')
             ->withKeyKey('OK!');
-
-//        $this->mail = Mail::to(['1043283601@qq.com','leiflyy@outlook.com'])
-        $this->mail = Mail::to('1043283601@qq.com')
-            ->subject('Hello!!')
-            ->htmlBody('<h1>Hello~~~~~~~~</h1>');
+       */
+        /* mail sample
+//        $this->mail = Mail::to(['test1@gmail.com','test2@gmail.com'])
+        $this->mail = Mail::to('test@gmail.com')
+            ->subject('Hello World')
+            ->htmlBody('<h1>Hello World from DropLet</h1>');
+    */
+        /* redis sample
+            Redis::set('key','value',3000,'ms');
+               echo Redis::get('key');
+        */
     }
+
+
 }
