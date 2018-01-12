@@ -17,7 +17,8 @@
     "filp/whoops":"*",
     "noahbuscher/macaw": "dev-master",
     "illuminate/database": "*",
-    "nette/mail": "*"
+    "nette/mail": "*",
+    "predis/predis": "*"
   },
   "autoload": {
     "classmap": [
