@@ -6,11 +6,12 @@
  * Time: 20:30
  */
 use \services\View;
-
+use \services\Mail;
 
 class BaseController
 {
     protected $view;
+    protected $mail;
 
     /**
      * BaseController constructor.
@@ -27,6 +28,14 @@ class BaseController
             extract($view->data);
             require $view->view;
         }
+
+//        Mail
+        $mail = $this->mail;
+        if ($mail instanceof Mail){
+            $mailer = new \Nette\Mail\SmtpMailer($mail->config);
+            $mailer->send($mail);
+        }
+
     }
 
 

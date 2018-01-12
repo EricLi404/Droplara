@@ -85,3 +85,5 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+/config/mail.php
+/config/database.php
