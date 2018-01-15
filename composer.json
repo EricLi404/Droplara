@@ -18,12 +18,18 @@
     "noahbuscher/macaw": "dev-master",
     "illuminate/database": "*",
     "nette/mail": "*",
-    "predis/predis": "*"
+    "predis/predis": "*",
+
+    "tinylara/framework": "~2.0",
+    "monolog/monolog": "1.13.1",
+    "danielstjules/stringy": "1.8",
+    "symfony/console": "^3.3"
   },
   "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
     "classmap": [
-      "app/controllers",
-      "app/models",
       "services"
     ]
   },

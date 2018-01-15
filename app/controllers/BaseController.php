@@ -8,9 +8,18 @@
 use \services\View;
 use \services\Mail;
 
+/**  所有控制器的基类
+ * Class BaseController
+ */
 class BaseController
 {
+    /**
+     * @var
+     */
     protected $view;
+    /**
+     * @var
+     */
     protected $mail;
 
     /**
@@ -20,8 +29,12 @@ class BaseController
     {
     }
 
+    /**
+     *
+     */
     public function __destruct()
     {
+
         $view = $this->view;
 //        instanceof 可以确定一个对象是类的实例、类的子类，还是实现了某个特定接口，并进行相应的操作
         if ($view instanceof View){
