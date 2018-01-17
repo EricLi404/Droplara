@@ -1,9 +1,9 @@
 {
-  "name":"eric404/droplet",
+  "name":"eric404/droplara",
   "description":"PHP/DropLet/ The PHP Framework",
   "type": "project",
   "license": "MIT",
-  "homepage": "http://droplet.ericli.top/",
+  "homepage": "http://droplara.ericli.top/",
   "vision":"v1.0-alpha",
   "keywords":["php","php framework"],
   "authors": [
@@ -18,12 +18,7 @@
     "noahbuscher/macaw": "dev-master",
     "illuminate/database": "*",
     "nette/mail": "*",
-    "predis/predis": "*",
-
-    "tinylara/framework": "~2.0",
-    "monolog/monolog": "1.13.1",
-    "danielstjules/stringy": "1.8",
-    "symfony/console": "^3.3"
+    "predis/predis": "*"
   },
   "autoload": {
     "psr-4": {
