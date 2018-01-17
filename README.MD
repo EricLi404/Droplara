@@ -1,15 +1,12 @@
-# DropLet 
+# DropLara
 [![Latest Stable Version](https://poser.pugx.org/eric404/droplet/v/stable)](https://packagist.org/packages/eric404/droplet)
 [![Total Downloads](https://poser.pugx.org/eric404/droplet/downloads)](https://packagist.org/packages/eric404/droplet)
 [![Latest Unstable Version](https://poser.pugx.org/eric404/droplet/v/unstable)](https://packagist.org/packages/eric404/droplet)
 [![License](https://poser.pugx.org/eric404/droplet/license)](https://packagist.org/packages/eric404/droplet)
 [![composer.lock](https://poser.pugx.org/eric404/droplet/composerlock)](https://packagist.org/packages/eric404/droplet)
 
-TinyLara is a Simple PHP Framework based on Composer, looks like a Tiny Laravel.
+DropLara is a Simple PHP Framework based on Composer, looks like a Tiny Laravel.
  
-The name of DropLet Framework is inspired by *the Droplet*  in liu cixin's novel *The three body problem*.
-
-DropLet Framework is just like *the Droplet* : simple , powerful and graceful
  
 
 ## Start
@@ -21,7 +18,7 @@ cd DropLet
 
 *OR:*
 
-Download in [releases page](https://github.com/EricLi404/DropLet/releases).
+Download in [releases page](https://github.com/EricLi404/DropLara/releases).
 
 ### Install dependencies:
 
@@ -29,7 +26,7 @@ Download in [releases page](https://github.com/EricLi404/DropLet/releases).
 composer update
 ```
 ### Databases import:
-- import `DropLet.sql`;
+- import `DropLara.sql`;
 - Rename `config/database_demo.php` to `config/database.php` ;
 - Modify `config/database.php` 
 

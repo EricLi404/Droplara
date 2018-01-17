@@ -1,9 +1,9 @@
 {
-  "name":"eric404/droplet",
+  "name":"eric404/droplara",
   "description":"PHP/DropLet/ The PHP Framework",
   "type": "project",
   "license": "MIT",
-  "homepage": "http://droplet.ericli.top/",
+  "homepage": "http://droplara.ericli.top/",
   "vision":"v1.0-alpha",
   "keywords":["php","php framework"],
   "authors": [
@@ -21,9 +21,10 @@
     "predis/predis": "*"
   },
   "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
     "classmap": [
-      "app/controllers",
-      "app/models",
       "services"
     ]
   },
