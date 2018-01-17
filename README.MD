@@ -5,7 +5,7 @@
 [![License](https://poser.pugx.org/eric404/droplara/license)](https://packagist.org/packages/eric404/droplara)
 [![composer.lock](https://poser.pugx.org/eric404/droplara/composerlock)](https://packagist.org/packages/eric404/droplara)
 
-DropLara is a Simple PHP Framework based on Composer, looks like a Tiny Laravel.
+DropLara is a Simple PHP Framework powered by Composer, looks like a Tiny Laravel.
   
 
 ## Start
@@ -111,4 +111,4 @@ echo Redis::get('key');
 5. RouteModule powered by fast and sexy [codingbean/macaw](https://packagist.org/packages/codingbean/macaw) 
 ## License
 
-The DropLet framework is open-sourced software licensed under the [MIT license](https://github.com/EricLi404/DropLet/blob/master/LICENSE)
+The DropLara framework is open-sourced software licensed under the [MIT license](https://github.com/EricLi404/DropLara/blob/master/LICENSE)
