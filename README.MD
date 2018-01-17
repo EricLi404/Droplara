@@ -1,10 +1,9 @@
 # DropLara
-[![Latest Stable Version](https://poser.pugx.org/eric404/droplet/v/stable)](https://packagist.org/packages/eric404/droplet)
-[![Total Downloads](https://poser.pugx.org/eric404/droplet/downloads)](https://packagist.org/packages/eric404/droplet)
-[![Latest Unstable Version](https://poser.pugx.org/eric404/droplet/v/unstable)](https://packagist.org/packages/eric404/droplet)
-[![License](https://poser.pugx.org/eric404/droplet/license)](https://packagist.org/packages/eric404/droplet)
-[![composer.lock](https://poser.pugx.org/eric404/droplet/composerlock)](https://packagist.org/packages/eric404/droplet)
-
+[![Latest Stable Version](https://poser.pugx.org/eric404/droplara/v/stable)](https://packagist.org/packages/eric404/droplara)
+[![Total Downloads](https://poser.pugx.org/eric404/droplara/downloads)](https://packagist.org/packages/eric404/droplara)
+[![Latest Unstable Version](https://poser.pugx.org/eric404/droplara/v/unstable)](https://packagist.org/packages/eric404/droplara)
+[![License](https://poser.pugx.org/eric404/droplara/license)](https://packagist.org/packages/eric404/droplara)
+[![composer.lock](https://poser.pugx.org/eric404/droplara/composerlock)](https://packagist.org/packages/eric404/droplara)
 DropLara is a Simple PHP Framework based on Composer, looks like a Tiny Laravel.
  
  
